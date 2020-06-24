@@ -3,7 +3,7 @@
 # Variables
 path="/var/www/html"
 MYSQL=`which mysql`
-SQLPASS="ChangeThisPa$$Werd"
+SQLPASS=$1
 DB_NAME="wordpress"
 USER="azureuser"
 DB_PASS="ChangeThisPa$$Werd"
